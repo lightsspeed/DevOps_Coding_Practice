@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+*.ts
+*.test.js
+tests/
+coverage/
+.git
+.gitignore
+README.md
+Dockerfile
+.env
+*.md

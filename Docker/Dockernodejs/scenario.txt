@@ -1,0 +1,11 @@
+🔒 2. Secure a Node.js App Dockerfile
+Problem:
+Given an existing Node.js app, write a Dockerfile that:
+
+Installs only production dependencies
+
+Avoids copying dev/test files into the image
+
+Uses a non-root user
+
+Implements health checks and exposes the app on port 8080

@@ -1,0 +1,23 @@
+🛠️ 1. Optimize a Python Dockerfile for Production
+Problem:
+Take a basic Python Dockerfile like this:
+
+Dockerfile
+Copy
+Edit
+FROM python:3.10
+COPY . /app
+WORKDIR /app
+RUN pip install -r requirements.txt
+CMD ["python", "app.py"]
+Tasks:
+
+Reduce image size and improve caching
+
+Add .dockerignore
+
+Use multi-stage builds if needed
+
+Avoid running as root
+
+Set proper environment variables (PYTHONUNBUFFERED, etc.)
